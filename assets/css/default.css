@@ -1,0 +1,537 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} 
+
+html{font-size: 62.5%;  /* = 10px */}
+
+body{margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #fcf4e5;
+font-size: 1.6rem;
+font-weight: 300;}
+
+/*==================================
+     DEFAULT FONT SIZE / MOBILE
+==================================*/
+h1{font-size: 3.6rem;  /* = 36px */
+font-weight: 700;}
+h2{font-size: 2.2rem;  /* = 24px */
+  line-height: 2.8rem;
+font-weight: 300;}
+h3{font-size: 1.8rem;   /* = 18px */
+font-weight: 400;
+line-height: 2.4rem;}
+h4{font-size: 1.8rem;   /* = 18px */
+  font-weight: 400;
+  line-height: 2.4rem;}
+
+p{font-size: 1.6rem;   /* = 16px */
+  font-weight: 400;}
+.caption {font-size: 1.3rem;  /* = 13px */
+font-weight: 300;}
+
+/*==================================
+     MEDIA QUERIES
+==================================*/
+
+/*-------------------------------
+     Font Size
+------------------------------ */ 
+@media (min-width: 768px) {
+  html{font-size: 62.5%;  /* = 10px */}
+  body{font-size: 1.8rem;
+      font-weight: 300;}
+  h1{font-size: 4.0rem;  /* = 48px */
+      font-weight: 800;
+    letter-spacing: .1rem;}
+      h2{font-size: 3.0rem;  /* = 36px */
+      font-weight: 300;
+    line-height: 4.0rem;}
+  h3{font-size: 2.4rem;   /* = 24px */
+      font-weight: 400;
+    line-height: 3.6rem;}
+  h4{font-size: 2.2rem;   /* = 24px */
+      font-weight: 500;}
+
+  .caption{font-size:1.6rem;  /* = 16px */
+      font-weight: 300;}
+  p{font-size: 1.8rem;}}
+  
+  @media (min-width: 992px) {
+    html{font-size: 62.5%;  /* = 10px */}
+    body{font-size: 2.0rem;
+        font-weight: 300;}
+    h1{font-size: 4.8rem;  /* = 48px */
+        font-weight: 800;}
+    h2{font-size: 3.6rem;  /* = 36px */
+        font-weight: 300;
+      line-height: 5rem !important;}
+    h3{font-size: 3.0rem;   /* = 24px */
+        font-weight: 400;
+      line-height: 4.8rem;
+    letter-spacing: .1rem;}
+    h4{font-size: 2.4rem;   /* = 24px */
+        font-weight: 500;}
+
+      .caption{font-size: 1.6rem;  /* = 16px */
+        font-weight: 300;}
+    p{font-size: 2.0rem;}}
+  
+  
+
+
+/*==================================
+     NAV BAR
+==================================*/
+
+/*==================================
+     NAV BAR
+==================================*/
+
+.navbar-toggler {
+	border: none;
+  background: transparent !important;
+}
+  
+  .navbar-toggler:focus {outline: none;
+	background: transparent !important;}
+
+  .navbar-custom{background-color: #fcf4e4;}
+  .navbar-toggler {
+    border: none;
+    background: transparent !important;}
+
+    nav a{color: gray;
+          padding-left: 10px;}
+    nav a:hover{color: #ca054d !important;}
+           
+  .nav-item{	letter-spacing: .2rem;
+    font-size: 1.8rem;
+    line-height: 3rem;}
+
+    .navbar-toggler .icon-bar {
+      background-color: black;
+      transform: rotate(0deg) translate(0px, 0px);
+      transition: ease all .2s;
+      }
+      
+      .navbar{padding: 1rem 1rem;}
+    
+      .navbar-toggler .icon-bar {
+      display: block;
+      width: 22px;
+      height: 2px;
+      border-radius: 1px;
+      color: gray;
+      }
+      
+      .navbar-toggler .icon-bar+.icon-bar {
+      margin-top: 4px;
+      margin-right: 5px;}
+      
+      .icon-bar:nth-child(2) {
+      width: 16px;
+      transition: ease all .2s;}
+      
+      .navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 4px);
+      transition: ease all .2s;
+      }
+      
+      .navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+      opacity: 0;
+      transition: ease all .2s;
+      }
+      
+      .navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+      transform: rotate(-45deg) translate(4px, -4px);
+      transition: ease all .2s;
+      }
+    
+      .navbar-toggler:hover>.icon-bar:nth-child(2) {
+        width: 22px;
+        transition: ease all .2s;
+        }
+        
+        .navbar-toggler:active>.icon-bar:nth-child(2) {
+        width: 22px;
+        transition: ease all .2s;
+        }
+    
+    .nav-link{	letter-spacing: 1px;
+      margin-right: 20px;}
+    
+    nav a{color: gray;}
+    nav a:hover{color: #ca054d !important;}
+
+
+
+/*==================================
+              Buttons
+==================================*/
+
+  /*-------------------------------
+   Tofu Color Button Medium
+   ------------------------------- */       
+ .TofuColorBtn{
+            width: 150px;
+            height: 50px;
+            font-size:  16px;  
+            margin-top: 30px;
+            border-radius: 100vh;
+            border-style: none;
+            color:gray;
+            font-weight: 400;
+            background: #FCF4E4;
+            box-shadow:   5px 5px 5px #a6a196,
+            -5px -5px 5px #ffffff;
+            cursor: pointer;}
+.TofuColorBtn:hover {
+             background-color: #ffc148;
+             color: white;}
+.TofuColorBtn:active { 
+        background-color: #ffc148;
+        box-shadow:  inset 8px 8px 7px #dba63e,
+        inset -8px -8px 7px #ffdc52;
+        transform: translateY(4px);}
+
+ /*-------------------------------
+   Tofu Color Button Small
+   ------------------------------- */   
+ .TofuColorBtn_sm{
+  width: auto;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  height: 42px;
+  font-size:  1.4rem;  
+  /* margin-top: 2rem; */
+  border-radius: 100vh;
+  border-style: none;
+  color:#2e2d2d;
+  letter-spacing: .1rem;
+  font-weight: 500;
+  background: #FCF4E4;
+  box-shadow: 5px 5px 5px #979289,
+  -5px -5px 5px #ffffff;
+  cursor: pointer;}
+.TofuColorBtn_sm:hover {
+   background-color: #ffc148;
+   color: white;}
+.TofuColorBtn_sm:active { 
+background-color: #ffc148;
+box-shadow:  inset 8px 8px 7px #dba63e,
+inset -8px -8px 7px #ffdc52;
+transform: translateY(4px);}
+
+ /*-------------------------------
+   Tofu Color Button Large
+   ------------------------------- */   
+   .TofuColorBtn_lg{
+    width: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    height: 50px;
+    font-size:  1.8rem;  
+    /* margin-top: 2rem; */
+    border-radius: 100vh;
+    border-style: none;
+    color:#2e2d2d;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    background: #FCF4E4;
+    box-shadow: 5px 5px 5px #979289,
+    -5px -5px 5px #ffffff;
+    cursor: pointer;}
+
+  .TofuColorBtn_lg:hover {
+     background-color: #ffc148;
+     color: white;}
+  
+.TofuColorBtn_lg:active { 
+  background-color: #ffc148;
+  box-shadow:  inset 8px 8px 7px #dba63e,
+  inset -8px -8px 7px #ffdc52;
+  transform: translateY(4px);}
+
+
+/*-------------------------------
+   Green Button Medium
+   ------------------------------- */  
+
+input[type="button"], .GreenBtn button{
+    width: 150px;
+    height: 50px;
+    font-size:  16px;  
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    border-style: none;
+    color:white;
+    font-weight: 400;
+    background: #00a25e;
+    box-shadow: 12px 12px 24px #007d48,
+    -12px -12px 24px #00c774;}
+
+.GreenBtn{
+        width: 150px;
+        height: 50px;
+        font-size:  16px;  
+        margin-top: 30px;
+        margin-bottom: 100px;
+        border-radius: 100vh;
+        border-style: none;
+        color:white;
+        font-weight: 400;
+        background: #00a25e;
+        box-shadow: 12px 12px 24px #007d48,
+        -12px -12px 24px #00c774;
+        cursor: pointer;}
+        
+
+.GreenBtn:hover {background-color: black;
+    color: white !important;}
+.GreenBtn:active { 
+            background-color: black;
+            box-shadow: inset 9px 9px 20px #7a7a7a,
+            inset -9px -9px 20px #aaaaaa;
+            transform: translateY(4px);
+          }
+
+ /*-------------------------------
+     Yellow Button Large
+   ------------------------------- */  
+.YellowBtn_lg{
+  width: 200px;
+  height: 60px;
+  font-size:  16px;  
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-radius: 100vh;
+  border-style: none;
+  color:black;
+  font-weight: 400;
+  background: #ffc148;
+  box-shadow:   8px 8px 16px #e6ae41,
+  -8px -8px 16px #ffd44f;
+  cursor: pointer;}
+
+  .YellowBtn_lg:hover {
+   background-color: #FCF4E4;
+   color: #ca054d;}
+
+.YellowBtn_lg:active { 
+background-color:#FCF4E4;
+box-shadow: inset 8px 8px 16px #d6cfc2,
+inset -8px -8px 16px #ffffff;
+transform: translateY(4px);}
+
+ /*-------------------------------
+     Yellow Button Medium
+   ------------------------------- */ 
+
+.YellowBtn{
+  width: 150px;
+  height: 50px;
+  font-size:  16px;  
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border-radius: 100vh;
+  border-style: none;
+  color:black;
+  font-weight: 400;
+  background: #ffc148;
+  box-shadow:      5px 5px 10px #664d1d,
+  -5px -5px 10px #ffd685;
+  cursor: pointer;}
+
+  .YellowBtn:hover {
+   background-color: black;
+   color:white;}
+
+.YellowBtn:active { 
+background-color:black;
+box-shadow: inset 8px 8px 16px #d6cfc2,
+inset -8px -8px 16px #aaaaaa;
+transform: translateY(4px);}
+
+
+ /*-------------------------------
+     Pink  Button Large
+------------------------------ */ 
+
+.PinkBtn_lg{
+  width: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    height: 50px;
+    font-size:  1.8rem;  
+    /* margin-top: 2rem; */
+    border-radius: 100vh;
+    border-style: none;
+    color:#2e2d2d;
+    letter-spacing: .1rem;
+    font-weight: 500;
+  background: #f9bec0;
+  box-shadow:   5px 5px 9px #9a7677,
+  -5px -5px 9px #ffd9d9;
+  cursor: pointer;}
+
+  .PinkBtn_lg:hover {
+   background-color: #FCF4E4 !important;
+   color: #ca054d !important;}
+
+.PinkBtn_lg:active { 
+background-color:#FCF4E4;
+box-shadow: inset 8px 8px 16px #d6cfc2,
+inset -8px -8px 16px #ffffff;
+transform: translateY(4px);}
+
+/* 
+##################################
+MODAL
+################################## */
+  /*MODAL*/
+  .modal-content {
+    background-color: #fcf4e4;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .modal-body p {
+      font-size: 1.3rem;
+  }
+
+  .modal-footer button {
+      border-radius: 3px
+  }
+  /*ADDRESS MADRID ESPANA*/
+  .address {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: rgb(138, 138, 138);
+  }
+
+  @media (min-width: 768px) {  
+    /*MODAL*/
+    .modal-content {
+      background-color: #fcf4e4;
+      border: none;
+      border-radius: 10px;
+    }
+  
+  .modal-body p {
+      font-size: 1.8rem;
+  }
+  
+  .modal-footer button {
+      font-size: 1.4rem;
+      border-radius: 5px;
+  }
+}
+
+/*==================================
+        SECTION FOOTER
+==================================*/
+
+
+
+.footer-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;}
+
+/* MENU HOVER EFFECT */
+.mb-3 a:hover{text-decoration: none;
+  color: #ca054d !important;}
+
+  .caption{font-size: 1.3rem;}
+  @media (min-width: 768px){.caption{font-size: 1.6rem;}} 
+  @media (min-width: 992px){.caption{font-size: 1.6rem;}}
+
+ /*-------------------------------
+     SOCIAL MEDIA ICONS
+------------------------------ */ 
+.fab{ font-size: 3.0rem;
+margin-right: 2rem; 
+color: #000;}
+
+.fab:hover{color: #ca054d;}
+
+ /*-------------------------------
+     FORM
+------------------------------ */ 
+/*　INPUT FORM */ 
+.form-control::placeholder {
+  font-size: 1.3rem;
+  color: #aaa;
+}
+
+.form-control.shadow-0:focus { box-shadow: none;}
+
+.input-group input{
+      width: 30rem;
+      height: 48px;
+      font-size:  16px;  
+      margin-top: 30px;
+      margin-bottom: 100px;
+      border-radius: 100vh;
+      border-style: none;
+      font-weight: 400;
+      background: #ffffff;
+      box-shadow:  inset 5px 5px 10px #cfc8bb,
+      inset -5px -5px 10px #ffffff;
+      cursor: pointer;
+      padding-left: 20px;}
+
+      .input-group textarea{
+        width: 30rem;
+        height: 100px;
+        font-size:  16px;  
+        margin-top: 30px;
+        margin-bottom: 150px;
+        border-radius: 2vh;
+        border-style: none;
+        font-weight: 400;
+        background: #ffffff;
+        box-shadow:  inset 5px 5px 10px #cfc8bb,
+        inset -5px -5px 10px #ffffff;
+        cursor: pointer;}
+
+
+/*==================================
+     MEDIA QUERIES
+==================================*/
+
+/*-------------------------------
+     Button Size
+------------------------------ */ 
+@media (min-width: 992px) {
+  .TofuColorBtn_sm{
+    font-size: 1.6rem; 
+    padding:1rem 3rem; 
+  }
+}
+
+/*-------------------------------
+     Nav bar
+------------------------------ */ 
+@media (min-width: 992px) {
+ .collapse{
+   margin-left: 5rem;
+  }
+  .nav-item{
+  margin-right: 3rem;
+  }
+}
+
+
+ /*-------------------------------
+   Form
+------------------------------- */
+/*Size of check box*/
+.custom-control-label::before {
+  width: 2rem !important;
+  height: 2rem !important;
+}

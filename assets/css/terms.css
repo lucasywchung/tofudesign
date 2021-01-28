@@ -1,0 +1,70 @@
+section.masthead {
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    color:black;
+  }
+
+section.masthead .masthead-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+section.masthead .masthead-subheading {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: black;
+    }
+section.masthead .title-subheading {
+    padding-top: 3rem;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 500;
+    }
+section.masthead .text-subheading {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+ /*MODAL*/
+ .modal-content {
+    background-color: #fcf4e4;
+    border: none;
+    border-radius: 5px;
+}
+
+.modal-body p {
+    font-size: 1.3rem;
+}
+
+.modal-footer button {
+    border-radius: 3px
+}
+/*ADDRESS MADRID ESPANA*/
+.address {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: rgb(138, 138, 138);
+}
+
+/*==================================
+     MEDIA QUERIES
+==================================*/
+ /*768 px*/
+ @media (min-width: 768px) {
+/*MODAL*/
+.modal-content {
+    background-color: #fcf4e4;
+    border: none;
+    border-radius: 10px;
+}
+
+.modal-body p {
+    font-size: 1.8rem;
+}
+
+.modal-footer button {
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+ }

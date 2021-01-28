@@ -1,0 +1,322 @@
+/*HEADER*/
+header.masthead {
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  text-align: center;
+  color:#CA054D;
+background-color: #FFC148; 
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .masthead-subheading {
+font-size: 1.6rem;
+font-style: italic;
+line-height: 1.5rem;
+margin-bottom: 25px;
+color: black;
+}
+header.masthead .masthead-heading {
+font-size: 4.8rem;
+font-weight: 700;
+line-height: 5rem;
+margin-bottom: 2rem;
+}
+/*END HEADER*/
+
+ /*-------------------------------
+     Yellow Button -2 Medium
+   ------------------------------- */ 
+
+   .YellowBtn-2{
+    width: 150px;
+    height: 50px;
+    font-size:  16px;  
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 100vh;
+    border-style: none;
+    color:black;
+    font-weight: 400;
+    background: #ffc148;
+    box-shadow:      5px 5px 10px #664d1d,
+    -5px -5px 10px #ffecc7;
+    cursor: pointer;}
+  
+    .YellowBtn-2:hover {
+     background-color: black;
+     color:white;}
+  
+  .YellowBtn-2:active { 
+  background-color:black;
+  box-shadow: inset 8px 8px 16px #636363,
+  inset -8px -8px 16px #aaaaaa;
+  transform: translateY(4px);}
+
+/*SECTION BIENVENIDO*/
+section.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    text-align: center;
+    color: black;
+    background-image: url("../img/VECTEEZY_ABSTRACT-FLAT-BACKGROUND_PS1020-min.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
+section.masthead .masthead-subheading {
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: auto;
+  margin-bottom: 25px;
+}
+section.masthead .masthead-heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4rem;
+  margin-bottom: 2rem;
+}
+/*END SECTION BIENVENIDO*/
+
+/*POR QUE TOFU?*/
+  .page-section {
+    padding: 6rem 0;
+    background-color: #FFC148;
+  }
+  .page-section h2.section-heading {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .page-section h4.section-subheading {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+ .page-section p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+  .title{
+    font-weight: 600;
+  }
+  /*END PORQUE TOFU*/
+
+  /*QUIENES SOMOS*/
+  .page-section-2 {
+    padding: 6rem 0;
+    background-color: #00A25E;
+  }
+
+  .card {
+    border: none;
+    padding:20px;
+    background-color:  white;
+    border-radius: 15px;
+  }
+  
+  .page-section-2 h3 {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+  }
+
+  .page-section-2 h4 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  .page-section-2 p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+  /*END QUIENES SOMOS*/
+
+  /*FORMULARIO*/
+  .form-group {
+    font-size: 1.4rem;
+  }
+  .form-group input {
+    height: 35px;
+    font-size:  16px;  
+    border-radius: 100vh;
+    border-style: none;
+    font-weight: 400;
+    background: #ffffff;
+    box-shadow:  inset 5px 5px 10px #cfc8bb,
+    inset -5px -5px 10px #ffffff;
+    cursor: pointer;
+    padding-left: 20px;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+    font-size:  16px;  
+    border-radius: 2vh;
+    border-style: none;
+    font-weight: 400;
+    background: #ffffff;
+    box-shadow:  inset 5px 5px 10px #cfc8bb,
+    inset -5px -5px 10px #ffffff;
+    cursor: pointer;
+  }
+
+  #inlineFormCustomSelect {
+    border-radius: 2vh;
+    padding-left: 20px;
+    box-shadow:  inset 5px 5px 10px #cfc8bb,
+    inset -5px -5px 10px #ffffff;
+    cursor: pointer;
+  }
+
+  .custom-control-label {
+    font-size: 1rem;
+  }
+
+  .page-section-3 h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-top: 12rem;
+  }
+  
+/*MODAL*/
+  .modal-content {
+      background-color: #fcf4e4;
+      border: none;
+      border-radius: 5px;
+  }
+
+  .modal-body p {
+      font-size: 1.3rem;
+  }
+
+  .modal-footer button {
+      border-radius: 3px
+  }
+
+/*MEDIA QUERY*/
+ /*768 px*/
+ @media (min-width: 768px) {
+    /*HEADER*/
+    header.masthead {
+      padding-top: 17rem;
+      padding-bottom: 10rem;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .form-gratuito {
+      width: 100%;
+      margin-right: 50px;
+    }
+
+    header.masthead .masthead-subheading {
+      font-size: 1.75rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+      text-align: left;
+    }
+
+    header.masthead .masthead-heading {
+      font-size: 3.6rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+      text-align: left;
+    }
+
+    /*SECTION*/
+    section.masthead {
+      padding-top: 17rem;
+      padding-bottom: 12.5rem;
+    }
+    section.masthead .masthead-subheading {
+      font-size: 1.75rem;
+      font-style: italic;
+      line-height: 2.25rem;
+      margin-bottom: 2rem;
+    }
+    section.masthead .masthead-heading {
+      font-size: 4.8rem;
+      font-weight: 700;
+      line-height: 4.5rem;
+      margin-bottom: 4rem;
+    }
+
+    /*MODAL*/
+    .modal-content {
+      background-color: #fcf4e4;
+      border: none;
+      border-radius: 10px;
+    }
+
+    .modal-body p {
+        font-size: 1.8rem;
+    }
+
+    .modal-footer button {
+        font-size: 1.4rem;
+        border-radius: 5px;
+      }
+    }
+
+   /*992 px*/
+  @media (min-width: 992px) {  
+    header.masthead .masthead-subheading {
+      margin-left: 100px;
+      width: 50%;
+    }
+
+    header.masthead .masthead-heading {
+      margin-top: 50px;
+      margin-left: 100px;
+      line-height: 6rem;
+      font-size: 6rem;
+      margin-right: 50px;
+      width: 50%;
+    }
+    .form-gratuito {
+      width: 100%;
+      margin-right: 100px;
+      margin-top: 50px;
+    }
+    .page-section-2 p {
+      font-size: 2rem;
+      width: 75%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    header.masthead .masthead-subheading {
+      margin-left: 200px;
+      width: 50%;
+    }
+
+    header.masthead .masthead-heading {
+      margin-top: 50px;
+      margin-left: 200px;
+    }
+  }
+
+   /*-------------------------------
+   Form
+------------------------------- */
+.custom-control-label{
+	font-size: 1.2rem;
+	padding-left: 10px;
+	padding-top: 3px;
+	}

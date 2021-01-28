@@ -1,0 +1,181 @@
+.img-fluid{
+  display: block;
+		max-width: 100%;
+		height: auto;
+	}
+
+.category{
+	display: flex;
+	flex-direction: row;
+  flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.proyecto{
+  position: relative;
+}
+
+ .paralsec3 {
+   background-color:  #ffc148 !important;
+  }
+   /* .jumbotron{background-color:  #FCF4E4 !important;}*/
+    .footer{
+      background-color:  #FCF4E4 !important;
+    }
+
+/* 
+##################################
+SECTION IMAGE GALLERY 
+################################## */ 
+
+.d-flex {
+  border:2px solid #000;
+}
+.d-flex picture {
+  width:300px;
+  flex: auto;
+  border:2px solid #000;
+}
+
+@media (min-width: 992px) { 
+  .w-lg-50 {
+    width:50%!important;
+  }
+}
+
+/* 
+##################################
+MODAL
+################################## */
+  /*MODAL*/
+  .modal-content {
+    background-color: #fcf4e4;
+    border: none;
+    border-radius: 5px;
+}
+
+.modal-body p {
+    font-size: 1.3rem;
+}
+
+.modal-footer button {
+    border-radius: 3px
+}
+/*ADDRESS MADRID ESPANA*/
+.address {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: rgb(138, 138, 138);
+}
+
+/*
+####################################################
+MEDIA QUERIES    
+####################################################
+
+/*-------------------------------
+   section #header
+------------------------------ */ 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
+#header{ 
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+}
+
+/* Medium devices (tablets, 768px and up) 
+The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  #header{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+  }
+  .fas{
+    opacity:0;
+  }
+}
+  /*MODAL*/
+  .modal-content {
+    background-color: #fcf4e4;
+    border: none;
+    border-radius: 10px;
+}
+
+.modal-body p {
+    font-size: 1.8rem;
+}
+
+.modal-footer button {
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {   
+    #header{
+      margin: auto;
+      width: 80%;
+      padding: 10px;}
+
+    .category{
+      margin: auto;
+      width: 80%;
+      padding: 2rem;
+    }
+  }
+
+  @media (min-width: 768px) {  
+    #header h1{
+      margin-top: 50px;
+      margin-bottom: 50px;}
+
+      .custom-control-label {
+        font-size: 1.5rem;
+      }
+  }
+
+  @media (min-width: 992px) {   
+    #header h1{
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+  }
+
+/*####################################################
+MEDIA QUERIES    
+####################################################*/
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+  picture {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+  }
+}
+
+  @media (min-width: 992px) {  
+    .video2{
+      margin-top:30px;
+    }
+    .custom-control-label {
+      font-size: 1.6rem;
+    }
+  }
+
+/*-------------------------------
+   Form
+------------------------------- */
+.custom-control-label{
+	font-size: 1.2rem;
+	padding-left: 10px;
+  padding-top: 3px;
+  }
+.custom-control-input{
+  margin-right: 5px;
+  }
